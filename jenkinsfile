@@ -8,7 +8,7 @@ pipeline
     stages {
         stage('Checkout') {
             steps {
-	       git branch:'main', url:https://github.com/SohamBorawake/jenkins_docker_python_hello1.git
+	       git branch:'main', url:https://github.com/SohamBorawake/jenkins_docker_python_hello.git
 	}
       }		
     stage('Docker Build') {
